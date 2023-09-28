@@ -1,6 +1,7 @@
 class Solution {
 public:
     int countGoodSubstrings(string s) {
+        
         int i =0;
         int j =0;
         int k = 3;
