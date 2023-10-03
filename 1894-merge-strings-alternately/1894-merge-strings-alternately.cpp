@@ -1,7 +1,7 @@
 class Solution {
 public:
     string mergeAlternately(string word1, string word2) {
-        ios_base::sync_with_stdio(0);
+        // ios_base::sync_with_stdio(0);
         cin.tie(0);
         cout.tie(0);
         int n = word1.size();
