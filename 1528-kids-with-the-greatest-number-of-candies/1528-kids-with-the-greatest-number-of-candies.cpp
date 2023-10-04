@@ -4,12 +4,8 @@ public:
         cin.tie(0);
         cin.tie(0);
         vector<bool>ans;
-        int maxi = INT_MIN;
         int n  = candies.size();
-        for(int i =0;i<n;i++)
-        {
-            maxi = max(maxi,candies[i]);
-        }
+        int maxi  = *max_element(candies.begin(),candies.end());
         for(int i =0;i<n;i++)
         {
             if(candies[i]+extraCandies >= maxi)
