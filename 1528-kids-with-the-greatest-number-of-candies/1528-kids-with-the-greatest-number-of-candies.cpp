@@ -1,6 +1,8 @@
 class Solution {
 public:
     vector<bool> kidsWithCandies(vector<int>& candies, int extraCandies) {
+        cin.tie(0);
+        cin.tie(0);
         vector<bool>ans;
         int maxi = INT_MIN;
         int n  = candies.size();
