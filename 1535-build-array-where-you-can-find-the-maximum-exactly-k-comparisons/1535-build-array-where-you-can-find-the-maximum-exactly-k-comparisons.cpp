@@ -1,6 +1,8 @@
 class Solution {
 public:
     int numOfArrays(int n, int m, int k) {
+        cin.tie(0);
+        cout.tie(0);
         const int mod = 1e9 + 7;
 
         vector<vector<int>> dp(m+1, vector<int>(k+1, 0));
