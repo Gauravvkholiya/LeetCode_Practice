@@ -1,6 +1,8 @@
 class Solution {
 public:
     int minCostClimbingStairs(vector<int>& cost) {
+        cin.tie(0);
+        cout.tie(0);
         int n = cost.size();
 	int first = cost[0];
 	int second = cost[1];
