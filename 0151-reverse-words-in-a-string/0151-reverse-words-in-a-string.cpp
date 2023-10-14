@@ -5,8 +5,8 @@ public:
         //optimal solution : reducing the space 
         //T.C = O(n) && S.C = O(1) 
         cin.tie(0);
-        cin.tie(0);
-        
+        cout.tie(0);
+
         int n = s.size();
         string temp = "";
         string ans = "";
