@@ -1,6 +1,8 @@
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
+        cin.tie(0);
+        cout.tie(0);
         int index = 0;
         for(int i = 0; i< nums.size(); i++){
             if(nums[i] != val){
