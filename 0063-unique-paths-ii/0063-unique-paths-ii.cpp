@@ -23,6 +23,7 @@ public:
     
     }
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
+        cin.tie(0);
         int m = obstacleGrid.size();
         int n = obstacleGrid[0].size();
         vector<vector<int>>dp(m,vector<int>(n,-1));
